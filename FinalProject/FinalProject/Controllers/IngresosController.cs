@@ -9,7 +9,7 @@ namespace FinalProject.Controllers
     public class IngresosController : Controller
     {
         // GET: Ingresos
-        public ActionResult Index()
+        public ActionResult IndexIngresos()
         {
             return View();
         }

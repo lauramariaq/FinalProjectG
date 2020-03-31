@@ -9,7 +9,7 @@ namespace FinalProject.Controllers
     public class AltasController : Controller
     {
         // GET: Altas
-        public ActionResult Index()
+        public ActionResult IndexAltas()
         {
             return View();
         }
