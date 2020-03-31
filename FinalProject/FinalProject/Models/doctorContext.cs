@@ -8,11 +8,10 @@ namespace FinalProject.Models
 {
     public class doctorContext:DbContext
     {
-
         public doctorContext()
-            :base("cadena")
+             :base("cadena")
         { }
 
-        public DbSet<doctorContext> doctors { get; set; }
+        public DbSet<doctor> Doctors { get; set; }
     }
 }
