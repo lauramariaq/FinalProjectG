@@ -9,7 +9,7 @@ namespace FinalProject.Controllers
     public class ConsultasController : Controller
     {
         // GET: Consultas
-        public ActionResult Index()
+        public ActionResult IndexConsulta()
         {
             return View();
         }
