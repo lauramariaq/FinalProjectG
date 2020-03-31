@@ -11,6 +11,9 @@ namespace FinalProject.Models
         [Required(ErrorMessage = "ID required")]
         public string ID { get; set; }
 
+        [Required(ErrorMessage = "cedula required")]
+        public string cedula { get; set; }
+
         [Required(ErrorMessage = "Name required")]
         public string Name { get; set; }
 
