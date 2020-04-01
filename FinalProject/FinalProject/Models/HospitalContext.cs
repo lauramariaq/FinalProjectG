@@ -6,11 +6,13 @@ using System.Data.Entity;
 
 namespace FinalProject.Models
 {
-    public class doctorContext:DbContext
+    public class patientContext:DbContext
     {
-        public doctorContext()
-             :base("cadena")
+        public patientContext()
+            :base("cadena")
         { }
+
+       public DbSet<patient> Patients { get; set; }
 
         public DbSet<doctor> Doctors { get; set; }
     }
