@@ -9,7 +9,7 @@ namespace FinalProject.Models
     public class patient
     {
         [Required(ErrorMessage = "ID required")]
-        public string ID { get; set; }
+        public int ID { get; set; }
 
         [Required(ErrorMessage = "cedula required")]
         public string Cedula { get; set; }

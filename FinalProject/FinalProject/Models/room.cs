@@ -8,7 +8,7 @@ namespace FinalProject.Models
     public class room
     {
         [Required(ErrorMessage = "ID required")]
-        public string ID { get; set; }
+        public int ID { get; set; }
 
         [Required(ErrorMessage = "numero required")]
         public int numero { get; set; }
