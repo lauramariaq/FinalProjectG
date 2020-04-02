@@ -8,9 +8,12 @@
 <h3>Datos del paciente</h3>
 
 
-@using (Html.BeginForm("AddPatient", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("AddPatient", "Home", FormMethod.Post, new { enctype = "/form-data" }))
 {
     <div>
+
+
+
         @Html.Label("ID:")
         @Html.TextBoxFor(i => i.ID, new { @class = "form-control", placeholder = "Insert your ID" })
         @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })

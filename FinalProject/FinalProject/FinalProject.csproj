@@ -226,9 +226,8 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\doctor.cs" />
     <Compile Include="Models\patient.cs" />
-    <Compile Include="Models\patientContext.cs" />
+    <Compile Include="Models\HospitalContext.cs" />
     <Compile Include="Models\room.cs" />
-    <Compile Include="Models\roomContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
